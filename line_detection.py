@@ -17,3 +17,5 @@ cv2.waitKey(0)
 detected_lines_135 = cv2.filter2D(src=img,ddepth=-1,kernel=line_135_detection_kernel)
 cv2.imshow("135 degree Lines",detected_lines_135)
 cv2.waitKey(0)
+
+cv2.destroyAllWindows()
